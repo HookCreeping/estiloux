@@ -4,28 +4,26 @@
 font-family: 'Quicksand', sans-serif;*/
 body{
     font-family: 'Quicksand', sans-serif;
-    background-color: black;
-    color: black;
-
+    background-color: #EDECED;
 }
 
 main{
-    background-color: darkblue;
+    background-color: white;
     color: black;
 }
 footer{
-    background-color: steelblue;
-    color: black;
+    background-color: gray;
+    color: white;
 }
 #logoux{
     font-family: 'Titillium Web', sans-serif;
     text-transform: uppercase;
     font-style: italic;
-    color: lightskyblue;
+    color:black;
 }
 header{
     font-family: 'Titillium Web', sans-serif;
-    background-color: midnightblue;
+    background-color: lightgray;
     color: white;
     font-weight: 600;
     font-size: 30px;
@@ -33,5 +31,9 @@ header{
 header .grid-layout{
     width: 80%;
     margin: 0 auto;
-    background-color: midnightblue;
+    background-color: gray;
+}
+header .header-flex{
+    flex-direction: row;
+    justify-content: flex-end;
 }
