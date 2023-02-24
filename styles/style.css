@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Titillium+Web:wght@200;300;600&display=swap');
+
+/* font-family: 'Titillium Web', sans-serif; 
+font-family: 'Quicksand', sans-serif;*/
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: black;
+    color: black;
+
+}
+
+main{
+    background-color: darkblue;
+    color: black;
+}
+footer{
+    background-color: steelblue;
+    color: black;
+}
+#logoux{
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    color: lightskyblue;
+}
+header{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: midnightblue;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+header .grid-layout{
+    width: 80%;
+    margin: 0 auto;
+    background-color: midnightblue;
+}
