@@ -23,7 +23,7 @@ footer{
 }
 header{
     font-family: 'Titillium Web', sans-serif;
-    background-color: lightgray;
+    background-color: #676767;
     color: white;
     font-weight: 600;
     font-size: 30px;
@@ -31,9 +31,13 @@ header{
 header .grid-layout{
     width: 80%;
     margin: 0 auto;
-    background-color: gray;
+    background-color: #676767;
 }
-header .header-flex{
+header nav{
+    display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    justify-content: flex-end;
+    align-items: center;
+    width: 300px;
+    border: 2px solid white;
 }
